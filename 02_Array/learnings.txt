@@ -1,0 +1,28 @@
+*** ARRAY ***
+contiguous memory allocation
+store same type of data
++infinity == INT_MAX (By default min() function)
+-infinity == INT_MIN (By default max() function)
+Array is always pass by reference
+means when ever we pass array in function and that function update the array then origin array will be updated
+Array name is implicitly pointer (Array Name store starting address)
+
+*** VECTORS ***
+// #include <bit/c++.h> vs #include <vector> -- why we should not use it and use vector instead
+// Dynamic memory allocation -> store in same vector if size is full then new vector of double **Capacity**
+// created size same capacity double [1,22,33,44] on push 55 [1,22,33,44,55] size 5 capacity 8
+// STL (Standard template library) have implementation of data structures like stack queue etc and these implementation are called STL containers
+// These c++ containers are alway pass by value we have to use & to make them pass by reference
+// 1- vector<int> vec;
+// 2- vector<int> vec = {1,2,3} -> [1,2,3]
+// 3- vector<int> vec (3,0) -> [0,0,0]
+// Vector Functions (size,push_back {add at last},pop_back {remove from last},front {First value},back {Last value},at {value at position} = vec[at])
+// segmentation fault (when we are trying to access something that we can't access)
+// g++ -std=c++11 code.cpp && cpp.exe (for c++ 11 standard)
+// There are more vector functions which are relevent for us now we will try them while learning about iterators
+
+*** ARRAY VS VECTORS ***
+// static vs dynamic allocation -  vector is dynamic (Runtime)  we can resize them - array is static (Compile time) can't be resize
+// compile vs runtime
+// array vs vector
+// stack vs heap (in detail like what is heap etc)
