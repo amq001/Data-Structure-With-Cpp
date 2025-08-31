@@ -25,14 +25,7 @@ Topics:
 using namespace std;
 
 int main() {
-// 1) Sum of two numbers
-/*
-    int a, b ,sum;
-    cout << "Enter two numbers:"<<endl;
-    cin >> a >> b;
-    sum = a + b;
-    cout << "Sum of " << a << " and " << b << " is " << sum << endl;
-*/
+
 
 // 2) Area of a square
 /*
