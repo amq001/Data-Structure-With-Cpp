@@ -27,26 +27,9 @@ using namespace std;
 int main() {
 
 
-// 2) Area of a square
-/*
-    int a, area;
-    cout << "Enter the side of the square:"<<endl;
-    cin >> a;
-    area = a * a;
-    cout << "Area of the square is " << area << endl;
-*/
-
 // 3) Min of two numbers
 /*
-  int a,b;
-  cout << "Enter two numbers:"<<endl;
-  cin >> a >> b;
-  if(a<b){
-    cout << "Minimum of " << a << " and " << b << " is " << a << endl;
-  }
-  else{
-    cout << "Minimum of " << a << " and " << b << " is " << b << endl;
-  }
+
 */
 
 // 4) Is number even or odd
