@@ -26,25 +26,6 @@ using namespace std;
 
 int main() {
 
-
-// 3) Min of two numbers
-/*
-
-*/
-
-// 4) Is number even or odd
-/*
- int a;
- cout << "Enter a number:"<<endl;
- cin >> a;
- if(a%2==0){
-    cout<<"Number is even"<<endl;
- }
- else{
-    cout<<"Number is odd"<<endl;
- }
-*/
-
 // 5) Sum of number from 1 to n
 /* 
 Formula n-(n+1)/2
